@@ -6,8 +6,10 @@ html, body {
 .header {
   height: 450px;
   width: 100%;
-  background: #3d0099;  
+  background: #black;  
 }
+
+
 
 .header__texture {
   width: 100%;
