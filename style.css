@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 450px;
+  width: 100%;
+  background: #3d0099;  
+}
+
+.header__texture {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; left: 0;
+  background: url('../img/startup.jpg') center no-repeat;
+}
+.header__navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navbar--logo-title {
+  color: white;
+  font-size: 28px;
+}
+
+.header__navbar--menu-link {
+  margin-left: 40 px;
+  color: #fff;
+  text-decoration: none;
+
+  
+}
+
+
+.container {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+
+
+------------------------------------------------------------------------------------
+
